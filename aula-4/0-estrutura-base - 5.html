@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Título</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Somar impares</h1>
+
+
+
+            <label for="txt1">Numero 1:</label><input type="text" id="txtNumeroInicial">
+            <label for="txt1">Numero 2:</label><input type="text" id="txtNumeroFinal">
+
+
+
+
+            <button onclick="botao_click()">Clique Aqui</button>
+
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+            var txNumeroInicial = document.getElementById("txtNumeroInicial").value;
+            var txNumeroFinal = document.getElementById("txtNumeroFinal").value;
+            var tNumeroInicial = parseInt(txNumeroInicial);
+            var tNumeroFinal = parseInt(txNumeroFinal);
+
+            var soma = 0;
+
+            for (var i = tNumeroInicial; i <= tNumeroFinal; i++) {
+
+                var resto = i % 2;
+                if (resto > 0) {
+
+                    soma = soma + i;
+
+                }
+            }
+            alert(soma);
+        }
+
+    </script>
+
+</body>
+
+</html>

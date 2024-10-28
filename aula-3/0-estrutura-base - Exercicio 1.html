@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Vivo</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Ligaçoes</h1>
+
+            <p>Tempo excedido</p>
+
+            <label for="txt1">Caixa de Texto:</label><input type="number" id="txtMinutos">
+            
+            
+
+            <button onclick="botao_click()">Calcular</button>
+
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+         var minutos = document.getElementById("txtMinutos").value;
+         
+         var valorPlano = 50;
+         var minutosLigaçao = 100;
+         var custoAdicionalMinuto = 2;
+         
+         var consumo = parseInt(minutos);
+         
+         var valorPago;
+         
+         
+
+         if (consumo > minutosLigaçao){
+
+            var minutosDiferença = consumo - minutosLigaçao;
+
+            var valorDiferença = custoAdicionalMinuto * minutosDiferença;
+
+            var valorPago = valorPlano + valorDiferença;
+         }
+
+         else {
+
+            valorPago = valorPlano;
+         }
+
+         var mensagem = "O valor a ser pago é R$ " + valorPago;
+
+         alert(mensagem);
+         
+
+
+
+        }
+
+    </script>
+
+</body>
+</html>

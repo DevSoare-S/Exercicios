@@ -1,0 +1,46 @@
+CSS Comandos
+
+color:;   muda cor do texto
+font-size:;    muda tamanho do texto
+font-family:;    Muda a fonte da letra
+font-weight:;  transforma texto 
+text-align:; alinha o texto
+width:; largura
+height:; altura
+background-color:; cor de fundo
+text-transform:;   transforma todo o texto
+text-decoration:;  decora os textos
+margin:auto;     margin determina a margem de todos os lados. espaçamento pra fora do conteudo
+margin-top:20px;   margin+ algum lado, determina apenas um lado
+padding-top:20px;   espaçamento pra dentro do conteudo
+position:absolute;   fica flutuando em cima do site
+position:fixed;      ele fica fixado na tela, flutuando acima da pagina
+left:100px;           coloca as coisas na esquerda
+top:10px;             coloca as coisas em cima
+right:0px;            coloca as coisas na direta
+bottom:0px;           coloca as coisas embaixo
+display:none;         Esconde as coisas da tela 
+display:block;        Fixa as coisas na tela
+display:Inline;       Faz aparecer em forma de linha
+display:Inline-block;  Aparece em forma de bloco 
+float:left;  Coloca a div em varios lugares
+
+
+
+HTML Comandos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

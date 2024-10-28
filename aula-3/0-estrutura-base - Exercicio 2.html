@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Escola</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Nota</h1>
+
+            
+
+            <label for="txt1">Nota primeiro semestre:</label><input type="number" id="txtNota1">
+            <label for="txt1">Nota segundo semestre:</label><input type="number" id="txtNota2">
+            
+            
+
+            <button onclick="botao_click()">Calcular</button>
+
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+        var notaPrimeiroSemestre = document.getElementById("txtNota1").value;
+        var notaSegundoSemestre = document.getElementById("txtNota2").value;
+        var notaPrimeiro = parseFloat(notaPrimeiroSemestre);
+        var notaSegundo = parseFloat(notaSegundoSemestre);
+        var resultado = (notaPrimeiro + notaSegundo) /2;
+
+        if (resultado > 6){
+
+            mensagem = "Aprovado";
+            alert(mensagem);
+        }
+
+        else if (resultado < 6) {
+
+            mensagem = "Reprovado"
+            alert(mensagem);
+        }
+       
+        }
+
+    </script>
+
+</body>
+</html>

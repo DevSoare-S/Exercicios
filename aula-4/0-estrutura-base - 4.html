@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Título</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Calculo de vezes</h1>
+
+
+
+            <label for="txt1">Digite o numero do calculo:</label><input type="number" id="txtCalculo">
+
+
+
+            <button onclick="botao_click()">Clique Aqui</button>
+
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+            var txCalculo = document.getElementById("txtCalculo").value;
+
+            var tCalculo = parseInt(txCalculo);
+
+            var mensagem = "A tabuada é \r ";
+
+            for (var i = 1; i <= 30; i++) {
+
+                var tabuada = i * tCalculo;
+                var calculo = i + " x " + tCalculo + " = " + tabuada + " \r ";
+
+                mensagem = mensagem + calculo;
+
+            }
+            alert(mensagem);
+
+        }
+
+        
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Medico</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Glicose</h1>
+
+            
+
+            <label for="txt1">Qual nivel da glicose:</label><input type="number" id="txtGlicose">
+            
+            
+
+            <button onclick="botao_click()">Resumo</button>
+
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+        var glicose1 = document.getElementById("txtGlicose").value;
+        var glicose = parseFloat(glicose1);
+
+        var mensagem = "";
+
+        if (glicose <= 100) {
+
+            mensagem = "Normal";
+        }
+        else if (glicose > 100 && glicose <= 140) {
+
+            mensagem = "Elevada";
+        }
+        else if (glicose > 140) {
+
+            mensagem = "Diabete";
+        }
+
+        alert(mensagem);
+        }
+
+    </script>
+
+</body>
+</html>

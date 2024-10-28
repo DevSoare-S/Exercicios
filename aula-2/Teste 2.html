@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Mercado</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Caixa</h1>
+
+            <p>Calcular</p>
+
+            <label for="txt1">Preço Unitario</label><input type="number" id="txtPreço">
+            <label for="txt1">Quantidade</label><input type="number" id="txtQuantidade">
+            <label for="txt1">Valor Dado pelo cliente</label><input type="number" id="txtValor">
+            
+            
+
+            <button onclick="botao_click()">Troco</button>
+
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+        var preço1 = document.getElementById("txtPreço").value;
+        var quantidade1 = document.getElementById("txtQuantidade").value;
+        var valor1 = document.getElementById("txtValor").value;
+
+        var preço2 = parseFloat(preço1);
+        var quantidade2 = parseFloat(quantidade1);
+        var valor2 = parseFloat(valor1);
+
+        var soma = preço2 * quantidade2;
+        var resultado = valor2 - soma;
+
+        var mensagem = "O troco do cliente é R$ " + resultado;
+
+        alert(mensagem);
+        
+
+        }
+
+    </script>
+
+</body>
+</html>

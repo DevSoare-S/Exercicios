@@ -1,0 +1,42 @@
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto Back End.csproj.AssemblyReference.cache
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto Back End.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto Back End.AssemblyInfoInputs.cache
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto Back End.AssemblyInfo.cs
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto Back End.csproj.CoreCompileInputs.cache
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto Back End.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto Back End.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\appsettings.json
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\Projeto Back End.exe
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\Projeto Back End.deps.json
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\Projeto Back End.runtimeconfig.json
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\Projeto Back End.dll
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\Projeto Back End.pdb
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\staticwebassets\msbuild.Projeto Back End.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\staticwebassets\msbuild.build.Projeto Back End.props
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Projeto Back End.props
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Projeto Back End.props
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\scopedcss\bundle\Projeto Back End.styles.css
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto .091B7E28.Up2Date
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto Back End.dll
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\refint\Projeto Back End.dll
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto Back End.pdb
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\Projeto Back End.genruntimeconfig.cache
+C:\Users\LUCAS\Desktop\Projeto Back End\Projeto Back End\Projeto Back End\obj\Debug\net8.0\ref\Projeto Back End.dll
+C:\Users\LUCAS\Desktop\Aulas Renato Gava\Projeto Back End\obj\Debug\net8.0\Projeto Back End.csproj.AssemblyReference.cache
+C:\Users\LUCAS\Desktop\Aulas Renato Gava\Projeto Back End\obj\Debug\net8.0\Projeto Back End.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LUCAS\Desktop\Aulas Renato Gava\Projeto Back End\obj\Debug\net8.0\Projeto Back End.AssemblyInfoInputs.cache
+C:\Users\LUCAS\Desktop\Aulas Renato Gava\Projeto Back End\obj\Debug\net8.0\Projeto Back End.AssemblyInfo.cs
+C:\Users\LUCAS\Desktop\Aulas Renato Gava\Projeto Back End\obj\Debug\net8.0\Projeto Back End.csproj.CoreCompileInputs.cache
+C:\Users\LUCAS\Desktop\Aulas Renato Gava\Projeto Back End\obj\Debug\net8.0\Projeto Back End.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\LUCAS\Desktop\Aulas Renato Gava\Projeto Back End\obj\Debug\net8.0\Projeto Back End.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\LUCAS\Desktop\Aulas Renato Gava\Projeto Back End\obj\Debug\net8.0\Projeto Back End.dll
+C:\Users\LUCAS\Desktop\Aulas Renato Gava\Projeto Back End\obj\Debug\net8.0\refint\Projeto Back End.dll
+C:\Users\LUCAS\Desktop\Aulas Renato Gava\Projeto Back End\obj\Debug\net8.0\Projeto Back End.pdb

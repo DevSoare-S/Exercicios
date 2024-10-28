@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Menor numero</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Menor numero</h1>
+
+            <p>Digite 3 numeros
+            </p>
+
+            <label for="txt1">Numero 1:</label><input type="number" id="txtNumero1">
+            <label for="txt1">Numero 2:</label><input type="number" id="txtNumero2">
+            <label for="txt1">Numero 3:</label><input type="number" id="txtNumero3">
+            
+            
+
+            <button onclick="botao_click()">Menor</button>
+
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+        var numero1 = document.getElementById("txtNumero1").value;
+        var numero2 = document.getElementById("txtNumero2").value;
+        var numero3 = document.getElementById("txtNumero3").value;
+
+        var numeroT1 = parseFloat(numero1);
+        var numeroT2 = parseFloat(numero2);
+        var numeroT3 = parseFloat(numero3);
+
+        if (numeroT1 < numeroT2 && numeroT1 < numeroT3) {
+            alert("O menor numero é o " + numeroT1);
+        }
+        else if (numeroT2 < numeroT1 && numeroT2 < numeroT3) {
+            alert("O menor numero é o " + numeroT2);
+        }
+        else if (numeroT3 < numeroT1 && numeroT3 < numeroT2) {
+            alert("O menor numero é o " + numeroT3);
+        }
+
+
+
+    }
+
+    </script>
+
+</body>
+</html>

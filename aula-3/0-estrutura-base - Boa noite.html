@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Boa noite</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Boa noite</h1>
+
+            <p>Informe a hora atual</p>
+
+            <label for="txt1">Digite o horario:</label><input type="number" id="txtHora">
+
+
+
+            <button onclick="botao_click()">Clique Aqui</button>
+
+        </div>
+    </div>
+
+    <script>
+
+        function botao_click() {
+
+            //você irá programar aqui!
+
+            var horaDigita = document.getElementById("txtHora").value;
+            var horaDigita1 = parseFloat(horaDigita);
+            if (horaDigita1 >= 18) {
+
+                alert("Boa noite");
+
+            }
+            
+           
+
+        }
+
+    </script>
+
+</body>
+
+</html>

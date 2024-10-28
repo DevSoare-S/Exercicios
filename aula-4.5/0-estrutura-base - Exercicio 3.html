@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Título</title>
+    <meta name="robots" content="noindex,nofollow">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+
+            <h1>Título</h1>
+
+
+
+            <label for="txt1">Informe quantas pessoas:</label><input type="number" id="txtQuantidadeDePessoas">
+
+            <label for="txt1">Informe os nomes:</label><input type="text" id="txtNomes">
+
+            <label for="txt1">Informe as idades:</label><input type="number" id="txtIdade">
+
+            <button onclick="botao_click()">Armazenar</button>
+
+        </div>
+    </div>
+
+    <script>
+
+        var nomes = [];
+        var idades = [];
+
+        function botao_click() {
+
+            var txtQuantidadeDePessoas = document.getElementById("txtQuantidadeDePessoas");
+
+            var txtNomes = document.getElementById("txtNomes");
+
+            var txtIdade = document.getElementById("txtIdade");
+
+            var qtDePessoas = parseInt(txtQuantidadeDePessoas.value);
+
+            if (nomes.length < qtDePessoas) {
+
+                var nome = txtNomes.value;
+                var idade = parseInt(txtIdade.value);
+
+                nomes.push(nome);
+                idades.push(idade);
+
+                txtNomes.value = "";
+                txtIdade.value = "";
+
+                txtNomes.focus();
+            }
+
+            if (nomes.length == qtDePessoas) {
+
+                var maiorIdade;
+                var posicaoMaiorIdade;
+
+                for (var i = 0; i < idades.length; i++) {
+
+                    var idade = idades[i];
+
+                    if (maiorIdade == undefined || idade > maiorIdade) {
+
+                        maiorIdade = idade;
+                        posicaoMaiorIdade = i;
+                    }
+
+                }
+
+                var nomePessoaMaisVelha = nomes[posicaoMaiorIdade];
+
+                alert("A pessoa mais velha é " + nomePessoaMaisVelha);
+
+                txtNomes.value = "";
+                txtIdade.value = "";
+                txtQuantidadeDePessoas.value = "";
+
+                nomes = [];
+                idades = [];
+
+
+            }
+
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>
